@@ -44,7 +44,7 @@ class IntQueue {
     }
 
     public boolean isFull() {
-        if (count == capacity - 1)
+        if (count == capacity)
             return true;
         return false;
     }
