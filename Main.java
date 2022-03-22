@@ -1,15 +1,15 @@
 package com.company;
 import ibadts.*;
 
- public class Main {
+public class Main {
     public static void main(String[] args)
     {
-        IntQueue queue = new IntQueue(7);
+        IntQueue queue = new IntQueue(5);
         for (int i = 0; i < 5; i++)
             queue.enqueue(i);
         System.out.println(queue.dequeue());
         System.out.println(queue.dequeue());
-        queue.enqueue(7);
+        queue.enqueue(10);
         for (int i = 0; i < 4; i ++)
             System.out.println(queue.dequeue());
     }
